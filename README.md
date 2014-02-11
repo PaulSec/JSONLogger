@@ -47,6 +47,25 @@ Define the proxy with the port 8000 :
 HTTP Proxy : port 8000
 ```
 
+## Example of session 
+
+Here is an example output that you can have : 
+
+```
+Proxy server listening on port 8000
+[+] http://smart-ip.net/geoip-json/95.128.42.132
+{"source":"smart-ip.net","host":"95.128.42.132","lang":"en","countryName":"United Kingdom","countryCode":"GB","city":"","region":"","latitude":"54.0000","longitude":"-2.0000","timezone":""}
+
+
+[+] http://smart-ip.net/geoip-json/8.8.8.8
+{"source":"smart-ip.net","host":"8.8.8.8","lang":"en","countryName":"United States","countryCode":"US","city":"Mountain View","region":"California","latitude":"37.4192","longitude":"-122.0570","timezone":"America\/Los_Angeles"}
+
+
+[+] http://ip.jsontest.com/
+{"ip": "31.34.10.164"}
+```
+
+
 ### Conclusion (& License)
 Feel free to give feedbacks and ask for new features.  
 
